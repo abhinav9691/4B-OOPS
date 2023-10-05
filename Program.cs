@@ -24,6 +24,10 @@ namespace _4B_OOPS
                         FrequencyOfArrayElements frequency = new FrequencyOfArrayElements();
                         frequency.FrequencyofElements();
                         break;
+                    case 4:
+                        MaxAndMinElement max = new MaxAndMinElement();
+                        max.FindMaxAndMin();
+                        break;
                 }
             }
         }
