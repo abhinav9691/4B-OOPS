@@ -16,9 +16,14 @@ namespace _4B_OOPS
                         DuplicateElements duplicate = new DuplicateElements();
                         duplicate.getDuplicateElements();
                         break;
+                    case 2:
+                        UniqueElements unique = new UniqueElements();
+                        unique.checkUniqueElements();
+                        break;
                 }
             }
         }
-                    
+
     }
+
 }
