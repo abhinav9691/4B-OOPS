@@ -20,6 +20,10 @@ namespace _4B_OOPS
                         UniqueElements unique = new UniqueElements();
                         unique.checkUniqueElements();
                         break;
+                    case 3:
+                        FrequencyOfArrayElements frequency = new FrequencyOfArrayElements();
+                        frequency.FrequencyofElements();
+                        break;
                 }
             }
         }
